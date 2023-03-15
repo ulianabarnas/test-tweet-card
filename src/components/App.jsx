@@ -1,16 +1,16 @@
+import Box from './Box/Box';
+import users from '../data/users.json'
+import CardList from './CardList/CardList';
+
 export const App = () => {
   return (
-    <div
-      style={{
-        height: '100vh',
-        display: 'flex',
-        justifyContent: 'center',
-        alignItems: 'center',
-        fontSize: 40,
-        color: '#010101'
-      }}
+    <Box
+      width="70%"
+      mx="auto"
+      py={5}
+      // color='black'
+      as="main"
     >
-      React homework template
-    </div>
-  );
+      <CardList usersInfo={users} />
+    </Box>);
 };

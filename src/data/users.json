@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "user": "Misha Linskiy",
+    "tweets": 777,
+    "followers": 100500,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png"
+  },
+  {
+    "id": 2,
+    "user": "Uliana Barnas",
+    "tweets": 1313,
+    "followers": 67,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png"
+  },
+  {
+    "id": 3,
+    "user": "Serhii Vasylchenko",
+    "tweets": 666,
+    "followers": 8787,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png"
+  }
+]
