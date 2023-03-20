@@ -4,20 +4,31 @@
     "user": "Misha Linskiy",
     "tweets": 777,
     "followers": 100500,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png"
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "isFollow": false
   },
   {
     "id": 2,
     "user": "Uliana Barnas",
     "tweets": 1313,
     "followers": 67,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png"
+    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "isFollow": false
   },
   {
     "id": 3,
     "user": "Serhii Vasylchenko",
     "tweets": 666,
     "followers": 8787,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png"
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    "isFollow": false
+  },
+    {
+    "id": 4,
+    "user": "Timofii Vasylchenko",
+    "tweets": 3432,
+    "followers": 81223787,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623653.png",
+    "isFollow": false
   }
 ]
