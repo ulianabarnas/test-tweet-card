@@ -3,7 +3,7 @@ import Avatar from 'components/Avatar/Avatar';
 import { Button, Item, Logo, Text } from './CardItem.styled';
 
 import bgImg from '../../img/answer-question.png';
-import logo from 'img/logo.svg';
+import logo from 'img/logotype.svg';
 
 export default function CardItem({
   id,
