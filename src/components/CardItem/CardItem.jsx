@@ -2,8 +2,8 @@ import PropTypes from 'prop-types';
 import Avatar from 'components/Avatar/Avatar';
 import { Button, Item, Logo, Text } from './CardItem.styled';
 
-import logo from '../../img/logo.svg';
 import bgImg from '../../img/answer-question.png';
+import logo from 'img/logo.svg';
 
 export default function CardItem({
   id,
