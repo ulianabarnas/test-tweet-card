@@ -1,5 +1,5 @@
-import logo from 'img/logo.svg';
-import bgImg from 'img/answer-question.png';
+import logo from '../../img/logo.svg';
+import bgImg from '../../img/answer-question.png';
 import { Button, ButtonActive, Item, Logo, Text } from './CardItem.styled';
 import Avatar from 'components/Avatar/Avatar';
 import { useState } from 'react';
