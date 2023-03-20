@@ -1,27 +1,35 @@
 import Box from 'components/Box/Box';
+// import PropTypes from 'prop-types';
+import CardItem from 'components/CardItem/CardItem';
+import useLocalStorage from 'hooks/useLocalStorage';
+// import { useState } from 'react';
 
 export default function CardList({ usersInfo }) {
+
+  const [cards, setCards] = useLocalStorage('cards', usersInfo);
+
+
+
+
   return (
     <Box
       as="ul"
-      //   pt={5}
-      //   maxWidth="300px"
-      //       mx="auto"
+      maxWidth="380px"
+      mx="auto"
     >
-      {usersInfo.map(({ id, user, tweets, followers, avatar }) => {
-        return (
-          <Box
-            as="li"
-            waxWidth="380px"
-            p={4} bg="red"
-            height="400px"
-            borderRadius={20}
-            // boxShadow="normal"
-          >
-
-          </Box>
-        );
+      {cards.map(({ id, ...props }) => {
+        return <CardItem key={id} id={id} {...props} setCards={setCards} />
       })}
     </Box>
   );
 }
+
+
+// !!!!
+// CardList.propTypes = {
+//   friends: PropTypes.arrayOf(
+//     PropTypes.shape({
+//       id: PropTypes.number.isRequired,
+//     })
+//   ),
+// };
