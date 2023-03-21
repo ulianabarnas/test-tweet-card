@@ -1,34 +1,50 @@
 [
   {
     "id": 1,
-    "user": "Misha Linskiy",
+    "user": "Doctor Strange",
     "tweets": 777,
     "followers": 100500,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1998/1998592.png",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/561/561545.png",
     "isFollow": false
   },
   {
     "id": 2,
-    "user": "Uliana Barnas",
+    "user": "Halk",
     "tweets": 1313,
     "followers": 67,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/616/616438.png",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1864/1864472.png",
     "isFollow": false
   },
   {
     "id": 3,
-    "user": "Serhii Vasylchenko",
+    "user": "Rocket",
     "tweets": 666,
     "followers": 8787,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623681.png",
+    "avatar": "https://cdn-icons-png.flaticon.com/512/7963/7963376.png",
+    "isFollow": false
+  },
+  {
+    "id": 4,
+    "user": "Groot",
+    "tweets": 3432,
+    "followers": 81223787,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2220/2220083.png",
     "isFollow": false
   },
     {
-    "id": 4,
-    "user": "Timofii Vasylchenko",
-    "tweets": 3432,
-    "followers": 81223787,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1623/1623653.png",
+    "id": 5,
+    "user": "Iron Man",
+    "tweets": 23542,
+    "followers": 12414,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6981/6981014.png",
+    "isFollow": false
+  },
+    {
+    "id": 6,
+    "user": "Spider Man",
+    "tweets": 234,
+    "followers": 57567,
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3330/3330581.png",
     "isFollow": false
   }
 ]
