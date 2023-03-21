@@ -3,22 +3,18 @@
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
-  /* font-family: 'Roboto', sans-serif; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
 }
 
 html {
   box-sizing: border-box;
-  width: 100vw;
-  overflow-x: hidden;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+  box-sizing: border-box;
 }
 
 h1,

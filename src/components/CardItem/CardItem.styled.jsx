@@ -5,10 +5,6 @@ export const Item = styled(Box)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  :not(:last-child) {
-    margin-bottom: ${p => p.theme.space[5]}px;
-  }
 `;
 
 export const Logo = styled.img`
@@ -38,12 +34,14 @@ export const Button = styled.button`
   box-shadow: ${p => p.theme.shadows.buttonShadow};
   background-color: ${p => {
     return p.isFollow ? p.theme.colors.active : p.theme.colors.light;
-}};
+  }};
   transition: all 300ms;
 
   &:hover {
     background-color: ${p => {
-    return p.isFollow ? p.theme.colors.activeHovering : p.theme.colors.lightHovering;
-}};
+      return p.isFollow
+        ? p.theme.colors.activeHovering
+        : p.theme.colors.lightHovering;
+    }};
   }
 `;

@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
-import Box from 'components/Box/Box';
 import CardItem from 'components/CardItem/CardItem';
 import useLocalStorage from 'hooks/useLocalStorage';
+import { Wrapper } from './CardList.styled';
 
 export default function CardList({ usersInfo }) {
   const [cards, setCards] = useLocalStorage('cards', usersInfo);
@@ -34,18 +34,13 @@ export default function CardList({ usersInfo }) {
   };
 
   return (
-    <Box
-      as="ul"
-      width="70%"
-      maxWidth="380px"
-      mx="auto"
-    >
+    <Wrapper>
       {cards.map(({ id, ...props }) => {
         return (
           <CardItem key={id} id={id} {...props} handleClick={handleClick} />
         );
       })}
-    </Box>
+    </Wrapper>
   );
 }
 

@@ -18,7 +18,7 @@ export default function CardItem({
     <Item
       as="li"
       position="relative"
-      width={380}
+      maxWidth={380}
       minHeight={500}
       pt={28}
       pb={36}
