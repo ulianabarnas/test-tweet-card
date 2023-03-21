@@ -2,8 +2,8 @@ import styled from 'styled-components';
 import Box from '../Box/Box';
 
 export const AppBox = styled(Box)`
-  @media screen and (min-width: 440px) {
-    width: 440px;
+  @media screen and (min-width: 420px) {
+    width: 420px;
   }
 
   @media screen and (min-width: 820px) {
