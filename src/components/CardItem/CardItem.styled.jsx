@@ -31,6 +31,7 @@ export const Button = styled.button`
   font-size: ${p => p.theme.fontSizes.s};
   line-height: ${p => p.theme.lineHeights.body};
   text-transform: uppercase;
+  cursor: pointer;
   box-shadow: ${p => p.theme.shadows.buttonShadow};
   background-color: ${p => {
     return p.isFollow ? p.theme.colors.active : p.theme.colors.light;

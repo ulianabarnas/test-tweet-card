@@ -29,7 +29,7 @@ export default function CardItem({
       boxShadow="cardShadow"
     >
       <Logo src={logo} alt="Logo" />
-      <img src={bgImg} alt="Question and answer" />
+      <img src={bgImg} alt="Question and answer" width="308" />
       <Avatar avatar={avatar} user={user} />
       <div>
         <Text style={{ marginBottom: 16, fontWeight: 600 }}>{user}</Text>

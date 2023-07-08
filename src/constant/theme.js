@@ -4,7 +4,7 @@ export const theme = {
     light: '#EBD8FF',
     lightHovering: '#FFFFFF',
     active: '#5CD3A8',
-    activeHovering: '#d0faeb',
+    activeHovering: '#58fcc1',
   },
   space: [0, 4, 8, 16, 20, 36],
   fontSizes: {
