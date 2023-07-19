@@ -1,16 +1,31 @@
 import styled from 'styled-components';
 import Box from 'components/Box/Box';
+import imgPath from 'img/answer-question.png';
+import logoPath from 'img/logotype.svg';
 
 export const Item = styled(Box)`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-`;
+  background-image: url(${logoPath}), url(${imgPath}),
+    linear-gradient(142deg, #471ca9 0%, #5736a3 69.1%, #4b2a99 100%);
+  background-repeat: no-repeat;
+  background-position: top 20px left 20px, top 28px center, center;
+  background-size: 76px, 308px, cover;
 
-export const Logo = styled.img`
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  &::before {
+    content: '';
+    position: absolute;
+    top: 214px;
+    left: 0;
+    display: inline-block;
+    width: 380px;
+    height: 8px;
+    background-color: #ebd8ff;
+    box-shadow: 0px 3px 3px 0px #fbf8ff inset,
+      0px 3px 3px 0px rgba(0, 0, 0, 0.1),
+      0px -2px 3px 0px #ae7be3 inset;
+  }
 `;
 
 export const Text = styled.p`

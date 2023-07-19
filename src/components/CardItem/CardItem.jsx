@@ -1,9 +1,6 @@
 import PropTypes from 'prop-types';
 import Avatar from 'components/Avatar/Avatar';
-import { Button, Item, Logo, Text } from './CardItem.styled';
-
-import bgImg from '../../img/answer-question.png';
-import logo from 'img/logotype.svg';
+import { Button, Item, Text } from './CardItem.styled';
 
 export default function CardItem({
   id,
@@ -18,18 +15,15 @@ export default function CardItem({
     <Item
       as="li"
       position="relative"
-      maxWidth={380}
+      width={380}
       minHeight={500}
-      pt={28}
+      pt={284}
       pb={36}
       px={36}
       borderRadius={20}
       textAlign="center"
-      background="linear-gradient(114.99deg, #471CA9 -0.99%, #5736A3 54.28%, #4B2A99 78.99%)"
       boxShadow="cardShadow"
     >
-      <Logo src={logo} alt="Logo" />
-      <img src={bgImg} alt="Question and answer" width="308" />
       <Avatar avatar={avatar} user={user} />
       <div>
         <Text style={{ marginBottom: 16, fontWeight: 600 }}>{user}</Text>
