@@ -26,13 +26,9 @@ export default function CardItem({
     >
       <Avatar avatar={avatar} user={user} />
       <div>
-        <Text style={{ marginBottom: 16, fontWeight: 600 }}>{user}</Text>
-        <Text style={{ marginBottom: 16 }}>
-          {tweets.toLocaleString('en-US')} tweets
-        </Text>
-        <Text style={{ marginBottom: 26 }}>
-          {followers.toLocaleString('en-US')} followers
-        </Text>
+        <Text>{user}</Text>
+        <Text>{tweets.toLocaleString('en-US')} tweets</Text>
+        <Text>{followers.toLocaleString('en-US')} followers</Text>
         <Button
           type="button"
           isFollow={isFollow}
@@ -51,6 +47,6 @@ CardItem.propTypes = {
   tweets: PropTypes.number.isRequired,
   followers: PropTypes.number.isRequired,
   avatar: PropTypes.string.isRequired,
-  isFollow: PropTypes.bool.isRequired,
+  isFollow: PropTypes.bool,
   handleClick: PropTypes.func.isRequired,
 };

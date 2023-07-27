@@ -6,7 +6,7 @@ export const theme = {
     active: '#5CD3A8',
     activeHovering: '#58fcc1',
   },
-  space: [0, 4, 8, 16, 20, 36],
+  space: [0, 4, 8, 16, 20, 26],
   fontSizes: {
     s: '18px',
     m: '20px',

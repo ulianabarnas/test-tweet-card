@@ -7,25 +7,16 @@ export default function CardList({ usersInfo }) {
   const [cards, setCards] = useLocalStorage('cards', usersInfo);
 
   const handleClick = cardId => {
-    setCards(
-      cards.map(card => {
-        const { id, isFollow, followers } = card;
+    setCards(prevCards =>
+      prevCards.map(card => {
+        const { id, followers, isFollow = false } = card;
 
         if (cardId === id) {
-
-          if (isFollow) {
-            return {
-              ...card,
-              isFollow: !isFollow,
-              followers: followers - 1,
-            };
-          }
-
           return {
             ...card,
-              isFollow: !isFollow,
-              followers: followers + 1,
-          }
+            isFollow: !isFollow,
+            followers: isFollow ? followers - 1 : followers + 1,
+          };
         }
 
         return card;
@@ -52,7 +43,6 @@ CardList.propTypes = {
       tweets: PropTypes.number.isRequired,
       followers: PropTypes.number.isRequired,
       avatar: PropTypes.string.isRequired,
-      isFollow: PropTypes.bool.isRequired,
     })
   ),
 };

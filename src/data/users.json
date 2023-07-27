@@ -4,47 +4,41 @@
     "user": "Doctor Strange",
     "tweets": 777,
     "followers": 100500,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/561/561545.png",
-    "isFollow": false
+    "avatar": "https://cdn-icons-png.flaticon.com/512/561/561545.png"
   },
   {
     "id": 2,
     "user": "Halk",
     "tweets": 1313,
     "followers": 67,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/1864/1864472.png",
-    "isFollow": false
+    "avatar": "https://cdn-icons-png.flaticon.com/512/1864/1864472.png"
   },
   {
     "id": 3,
     "user": "Rocket",
     "tweets": 666,
     "followers": 8787,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/7963/7963376.png",
-    "isFollow": false
+    "avatar": "https://cdn-icons-png.flaticon.com/512/7963/7963376.png"
   },
   {
     "id": 4,
     "user": "Groot",
     "tweets": 3432,
     "followers": 81223787,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/2220/2220083.png",
-    "isFollow": false
+    "avatar": "https://cdn-icons-png.flaticon.com/512/2220/2220083.png"
   },
     {
     "id": 5,
     "user": "Iron Man",
     "tweets": 23542,
     "followers": 12414,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/6981/6981014.png",
-    "isFollow": false
+    "avatar": "https://cdn-icons-png.flaticon.com/512/6981/6981014.png"
   },
     {
     "id": 6,
     "user": "Spider Man",
     "tweets": 234,
     "followers": 57567,
-    "avatar": "https://cdn-icons-png.flaticon.com/512/3330/3330581.png",
-    "isFollow": false
+    "avatar": "https://cdn-icons-png.flaticon.com/512/3330/3330581.png"
   }
 ]
